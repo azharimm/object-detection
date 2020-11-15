@@ -46,8 +46,6 @@ const App = () => {
         }
     }, [detectFrame]);
 
-    
-
     const renderPredictions = (predictions) => {
         const ctx = canvasRef.current.getContext("2d");
         ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
